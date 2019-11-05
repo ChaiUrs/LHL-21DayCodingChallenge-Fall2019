@@ -20,13 +20,17 @@ If you're asked about a topic that isn't in the list above, respond with a defau
 ## Examples
 
 1. __Input__ :
-const topic = 'economy'
+
+       const topic = 'economy'
 
    __Output__ :
-   Time is money.
+   
+       Time is money.
 
-2. __Input__ :
-const topic = 'transportation'
+2. __Input__ : 
+
+       const topic = 'transportation'
 
    __Output__ :
-   It's going to be a long road, so we better get moving.
+   
+       It's going to be a long road, so we better get moving.
