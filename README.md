@@ -3,9 +3,11 @@ https://coding-challenge.lighthouselabs.ca/
 
 ## Overview
 
-The __21 Day Coding Challenge__ is a set of coding challenges hosted by *Lighthouse Labs* to encourage and challenge participants of all levels to improve their coding skills.
+The __21 Day Coding Challenge__ is a set of coding challenges hosted by *Lighthouse Labs* to encourage and challenge participants of all levels to improve their coding skills. 
 
-Daily challenges start on November 1, and run throughout the subsequent 21 days until finished.
+Commit and code for just 15-30 minutes a day and build your __JavaScript__ skills. It’s fun, free, and there are fabulous prizes up for grabs.
+
+Daily challenges start on __1 November 2019__, and run over the next *21 days* until finished.
 
 Each day, a new challenge will get unlocked if - __you have completed the previous day's challenge__ - (*until you complete the previous day's challenge, you cannot view current challenge*).
  
