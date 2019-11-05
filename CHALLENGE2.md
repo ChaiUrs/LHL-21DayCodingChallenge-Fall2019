@@ -8,7 +8,7 @@ The Lighthouse Gazette wants to interview you about your campaign, but you're a 
 * economy
 * transportation
 
-# Instructions
+## Instructions
 
 Given a question topic, complete a function interviewAnswer(topic) that returns your stance on that particular election issue. The answer should be returned as a string.
 
