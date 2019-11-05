@@ -8,7 +8,11 @@ Complete the function registerToVote(name, unregisteredVoters) that takes in the
 
 ## Examples
 
-__Input__ : const name = 'Bradley';
-            const unregisteredVoters = ['Jake', 'Alanna', 'Bradley', 'Stephanie'];
+__Input__ : 
+
+    const name = 'Bradley';
+    const unregisteredVoters = ['Jake', 'Alanna', 'Bradley', 'Stephanie'];
     
-__Output__ : ['Jake', 'Alanna', 'Stephanie']
+__Output__ : 
+  
+    ['Jake', 'Alanna', 'Stephanie']
