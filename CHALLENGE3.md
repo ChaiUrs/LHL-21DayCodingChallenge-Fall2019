@@ -18,13 +18,19 @@ For example in this array [0, 2, 1] there are 0 votes for Tim, 2 votes for Sally
 ## Examples
 
 1. __Input__ :
-    const name = 'Sally';
-    const votes = [ 0, 2, 1 ]
+
+       const name = 'Sally';
+       const votes = [ 0, 2, 1 ]
     
-   __Output__: [ 0, 3, 1 ]
+   __Output__: 
+     
+       [ 0, 3, 1 ]
 
 2. __Input__ :
-    const name = 'Tim';
-    const votes = [ 1, 1, 2 ]
+     
+       const name = 'Tim';
+       const votes = [ 1, 1, 2 ]
       
-   __Output__: [ 2, 1, 2 ]
+   __Output__: 
+   
+       [ 2, 1, 2 ]
