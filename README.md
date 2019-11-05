@@ -1,1 +1,1 @@
-# LHL-21-Day-Coding-Challenge-Nov-2019-
+# 21-Day Coding Challenge by Lighthouse Labs
