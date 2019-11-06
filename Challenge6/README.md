@@ -31,7 +31,7 @@ If the arrays do not contain the same number of items, then we know something is
  
   __Output__ :
 
-      FRAUD!
+       FRAUD!
 
 2. __Input__ :
 
@@ -54,4 +54,4 @@ If the arrays do not contain the same number of items, then we know something is
 
   __Output__ :
 
-      'All clear, we can count the votes!
+       'All clear, we can count the votes!
