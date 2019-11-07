@@ -19,12 +19,15 @@ const termTopics = interviews => {
 	for (let i = 0; i < interviews.length; i++) {
 		if (interviews[i] === "smart city") {
 			count[0]++;
+			console.log(`Smart City count : ${count[0]}`);
 		}
 		if (interviews[i] === "arts funding") {
 			count[1]++;
+			console.log(`Arts Funding count : ${count[1]}`);
 		}
 		if (interviews[i] === "transportation") {
 			count[2]++;
+			console.log(`Transportation count : ${count[2]}`);
 		}
 	}
 	return count;
