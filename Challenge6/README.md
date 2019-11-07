@@ -10,48 +10,48 @@ If the arrays do not contain the same number of items, then we know something is
 
 ## Examples
 
-1. **Input** :
+1. __Input__ :
 
 
-      const voter_signatures = [
+       const voter_signatures = [
         'Bill Billiamson',
         'Kate Etak',
         'Brandon Brandonus',
         'Fake McFakerson',
         'Jane Janesford'
-      ]
+       ]
 
-      const voter_ids = [
+       const voter_ids = [
         'Bill Billiamson',
         'Kate Etak',
         'Brandon Brandonus',
         'Simon Simonson',
         'Jane Janesford'
-      ]
+       ]
+ 
+  __Output__ :
 
-**Output** :
+       FRAUD!
 
-FRAUD!
-
-2. **Input**:
+2. __Input__ :
 
 
-      const voter_signatures = [
+       const voter_signatures = [
         'Bill Billiamson',
         'Kate Etak',
         'Brandon Brandonus',
         'Simon Simonson',
         'Jane Janesford'
-      ]
+       ]
 
-      const voter_ids = [
+       const voter_ids = [
         'Bill Billiamson',
         'Kate Etak',
         'Brandon Brandonus',
         'Simon Simonson',
         'Jane Janesford'
-      ]
+       ]
 
-**Output** :
+  __Output__ :
 
-'All clear, we can count the votes!
+       'All clear, we can count the votes!
