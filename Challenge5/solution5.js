@@ -6,9 +6,9 @@ const stations = [
 	["Moose Mountain Community Centre", 45, "community centre"]
 ];
 
+// SOLUTION 1
 const chooseStations = stations => {
 	const array_of_stations = [];
-
 	for (const station of stations) {
 		if (station[1] >= 20) {
 			if (station[2] === "school" || station[2] === "community centre") {
@@ -20,5 +20,15 @@ const chooseStations = stations => {
 	}
 	return array_of_stations;
 };
+console.log(chooseStations(stations));
 
+// SOLUTION 2
+const chooseStations = stations =>
+	stations
+		.filter(
+			station =>
+				station[1] >= 20 &&
+				(station[2] === "school" || station[2] === "community centre")
+		)
+		.map(station => station[0]);
 console.log(chooseStations(stations));

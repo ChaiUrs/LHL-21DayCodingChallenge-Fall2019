@@ -14,6 +14,7 @@ const interviews = [
 	"smart city"
 ];
 
+//SOLUTION 1
 const termTopics = interviews => {
 	let count = [0, 0, 0];
 	for (let i = 0; i < interviews.length; i++) {
@@ -32,4 +33,12 @@ const termTopics = interviews => {
 	}
 	return count;
 };
+console.log(termTopics(interviews));
+
+// SOLUTION 2
+const termTopics = interviews => [
+	interviews.filter(count => count === "smart city").length,
+	interviews.filter(count => count === "arts funding").length,
+	interviews.filter(count => count === "transportation").length
+];
 console.log(termTopics(interviews));
