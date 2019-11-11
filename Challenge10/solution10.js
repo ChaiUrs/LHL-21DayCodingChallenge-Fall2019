@@ -13,6 +13,7 @@ const spots = [
 
 const vehicle = "regular"; // possible options are 'regular', 'small', or 'motorcycle'
 
+// SOLUTION 1
 const whereCanIPark = (spots, vehicle) => {
 	const parkingSpots = {
 		regular: ["R"],
@@ -26,6 +27,30 @@ const whereCanIPark = (spots, vehicle) => {
 		for (row = 0; row < spots.length; row++) {
 			if (parkingSpots[vehicle].includes(spots[column][row])) {
 				return [row, column];
+			}
+		}
+	}
+	return false;
+};
+console.log(whereCanIPark(spots, vehicle));
+
+// SOLUTION 2
+const whereCanIPark = (spots, vehicle) => {
+	const regular = ["R"];
+	const small = ["R", "S"];
+	const motorcycle = ["R", "S", "M"];
+
+	for (let row = 0; row < spots.length; row++) {
+		for (let col = 0; col < spots[row].length; col++) {
+			if (vehicle === "regular" && regular.includes(spots[row][col])) {
+				return [col, row];
+			} else if (vehicle === "small" && small.includes(spots[row][col])) {
+				return [col, row];
+			} else if (
+				vehicle === "motorcycle" &&
+				motorcycle.includes(spots[row][col])
+			) {
+				return [col, row];
 			}
 		}
 	}
