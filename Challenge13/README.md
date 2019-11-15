@@ -44,28 +44,28 @@ The third function, toggleLights, will receive an array of many street lights, a
 
 **Output** :
 
-[
-{
-id: 1,
-on: false
-},
-{
-id: 2,
-on: false
-},
-{
-id: 3,
-on: false
-},
-{
-id: 4,
-on: false
-},
-{
-id: 5,
-on: false
-}
-]
+    [
+      {
+        id: 1,
+        on: false
+      },
+      {
+        id: 2,
+        on: false
+      },
+      {
+        id: 3,
+        on: false
+      },
+      {
+        id: 4,
+        on: false
+      },
+      {
+        id: 5,
+        on: false
+      }
+    ]
 
 **Input** :
 
@@ -95,29 +95,29 @@ on: false
 
 **Output** :
 
-[
-{
-id: 1,
-on: true
-},
-{
-id: 2,
-on: true
-},
-{
-id: 3,
-on: true
-},
-{
-id: 4,
-on: true
-},
-{
-id: 5,
-on: true
-}
-]
-
+    [
+      {
+        id: 1,
+        on: ture
+      },
+      {
+        id: 2,
+        on: ture
+      },
+      {
+        id: 3,
+        on: true
+      },
+      {
+        id: 4,
+        on: true
+      },
+      {
+        id: 5,
+        on: true
+      }
+    ]
+    
 **Input** :
 
     // for toggleLights() function
@@ -148,25 +148,25 @@ on: true
 
 **Output** :
 
-[
-{
-id: 1,
-on: false
-},
-{
-id: 2,
-on: false
-},
-{
-id: 3,
-on: false
-},
-{
-id: 4,
-on: false
-},
-{
-id: 5,
-on: false
-}
-]
+    [
+      {
+        id: 1,
+        on: false
+      },
+      {
+        id: 2,
+        on: false
+      },
+      {
+        id: 3,
+        on: false
+      },
+      {
+        id: 4,
+        on: false
+      },
+      {
+        id: 5,
+        on: false
+      }
+    ]
