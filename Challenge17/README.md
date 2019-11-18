@@ -30,7 +30,7 @@ Our function must return the name of the person who submitted (vegetables.submit
     }
     ]
 
-        const metric = 'redness'
+      const metric = 'redness'
 
 #### Output:
 
