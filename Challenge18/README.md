@@ -34,7 +34,7 @@ While we could do this all within the bestOdds() function, we want to keep our c
 
 #### Input :
 
-// for countTickets() helper function
+    // for countTickets() helper function
 
     const tickets = [
     'red',
